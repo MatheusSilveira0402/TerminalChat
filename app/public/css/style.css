@@ -1,6 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .css-nav{
     background: purple;
+    text-align: center;
 }
 .css-nav a{
     color: white;
+}
+.css-nav a:hover{
+    color: black;
+}
+.div-msg{
+    width: 80%;
+    height: 95%;
+    background:rgba(32, 3, 32, 0.432);
+    float: right;    
+}
+.div-msg input{
+    width: 90%;
+    height: 50px;
+    position: relative;
+    top: 70%;
+    border-radius: 4px;
+}
+.div-msg button{
+    border: 0ch;
+    background: rgb(82, 5, 82);
+    width: 10%;
+    height: 50px;
+    position: relative;
+    float: right;
+    top: 70%;
+    border-radius: 4px;
+    color: white;
+}
+.campo-msg{
+    margin: 15px;
+    padding: 10px;
+    background: violet;
+    width: 60%;
+    border-bottom-left-radius: 2em;
+    border-top-right-radius: 2em;
 }

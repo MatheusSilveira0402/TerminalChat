@@ -12,19 +12,51 @@
         <!-- link css -->
         <link rel="stylesheet" href="css/style.css">
 
-    </head>    
-    <body>
-        <ul class="nav css-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">image</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Chat</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Participantes</a>
-            </li>
+</head>    
+<body>
+    <ul class="nav css-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-terminal"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Chat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Participantes</a>
+        </li>
+      </ul>
+
+      <div class="div-msg">
+        <div class="campo-msg">
+          <strong>users</strong>
+          <p>ola mundo</p>
+        </div>
+
+        <input type="text" id="mensagens" name="mensagens">
+        <button type="submit" id="enviar" name="enviar">Enviar</button>
+      </div>
+      <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 20%; height: 95%;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Chat Hack</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <span>log de users</span>
+        </ul>
+        <hr>
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-user fa-2x"></i><strong> User</strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Configuração</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sair</a></li>
           </ul>
-    </body>
+        </div>
+      </div>
+      
+</body>
 
 </html>
